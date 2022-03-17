@@ -26,6 +26,8 @@ hr {
 }
 
 
+
+
 .spacer {
   height: 10vw;
 }
@@ -22590,7 +22592,8 @@ all and (max-width:1024px) and (orientation:portrait) {
 }
 
 .home__hero .content {
-	width: 75%;
+	margin-left: -8%;
+	width: 90%;
 	bottom: calc(100% + 5vw);
 	position: absolute
 }
@@ -28438,7 +28441,7 @@ section#services #services_container.reveal div:last-child ol:nth-child(2) {
 
 @media all and (min-width:601px) and (max-width:1200px) {
 	section#services {
-		padding-bottom: 90px
+		padding-bottom: 50px
 	}
 	section#services #services_container ol li {
 		font-size: 70px;
