@@ -13,21 +13,6 @@ hr {
 	--swiper-theme-color: #007aff
 }
 
-
-.project-header-container {
-	text-align: center;
-	height: 150px;
-	margin: 20px auto 0;
-	width: 85%
-}
-
-.project-header-container p {
-	font-size: 1.9em
-}
-
-
-
-
 .spacer {
   height: 10vw;
 }
@@ -17962,7 +17947,7 @@ figure {
 	--bg-medium: #e7e7e7;
 	--bg-dark: #272121;
 	--bg-black: #030303;
-	--color-main: #00000040;
+	--color-main: #00000085;
 	--color-secondary: #e0131b;
 	--color-white: #fff;
 	--color-medium: #cccbcb;
@@ -22592,8 +22577,7 @@ all and (max-width:1024px) and (orientation:portrait) {
 }
 
 .home__hero .content {
-	margin-left: -8%;
-	width: 90%;
+	width: 75%;
 	bottom: calc(100% + 5vw);
 	position: absolute
 }
@@ -28441,7 +28425,7 @@ section#services #services_container.reveal div:last-child ol:nth-child(2) {
 
 @media all and (min-width:601px) and (max-width:1200px) {
 	section#services {
-		padding-bottom: 50px
+		padding-bottom: 90px
 	}
 	section#services #services_container ol li {
 		font-size: 70px;
