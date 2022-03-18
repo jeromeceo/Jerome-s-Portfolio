@@ -13,6 +13,18 @@ hr {
 	--swiper-theme-color: #007aff
 }
 
+
+.project-header-container {
+	text-align: center;
+	height: 150px;
+	margin: 20px auto 0;
+	width: 85%
+}
+
+.project-header-container p {
+	font-size: 1.9em
+}
+
 .spacer {
   height: 10vw;
 }
