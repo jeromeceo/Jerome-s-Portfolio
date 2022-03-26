@@ -13,6 +13,66 @@ hr {
 	--swiper-theme-color: #007aff
 }
 
+.title-card-container {
+		width: 90vw;
+}
+
+
+.title-card-double {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding: 2px;
+
+}
+
+.title-card-double img {
+
+	margin: auto;
+	padding: 10px;
+
+
+}
+
+
+.title-card-single {
+	width: 100%;
+	margin: auto;
+	padding: 2px;
+}
+
+.title-card-single img {
+
+	margin: auto;
+	padding: 10px;
+
+}
+
+@media (min-width:867px) {
+
+	.title-card-mobile {
+		display: none;
+	}
+}
+
+
+.title-card-mobile {
+	width: 100%;
+	padding: 10px;
+}
+
+.title-card-mobile img {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+}
+
+@media (max-width:867px) {
+	.title-card-single, .title-card-double  {
+		display: none;
+		width: 100%;
+	}
+}
+
 
 .project-header-container {
 	text-align: center;
